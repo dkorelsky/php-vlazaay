@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56b42be1-5d81-4643-8a9d-6b1e2366085e" name="Default Changelist" comment="update gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/reserve/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reserve/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/Deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Deploy.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
