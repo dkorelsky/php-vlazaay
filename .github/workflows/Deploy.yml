@@ -9,14 +9,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # Setup key
-#      - run: set -eu
-#      - name: Install SSH Key
-#        uses: shimataro/ssh-key-action@v2
-#        with:
-#          key: ${{ secrets.SSH_PRIVATE_KEY }}
-#      - name: Deploy with rsync
-#        run: rsync -avz ./dist/ $root@$134.209.225.137:/var/www/vlazaay
-      - run: cd /var/www/vlazaay
-      - run: git pull
-
+      - name: executing remote ssh commands using password
+          uses: appleboy/ssh-action@master
+          with:
+            host: ${{ secrets.IP }}
+            username: ${{ secrets.USER }}
+            password: ${{ secrets.PRIVATE_KEY }}
+            script: |
+              cd /var/www/vlazaay
+              git pull
