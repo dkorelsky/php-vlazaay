@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b42be1-5d81-4643-8a9d-6b1e2366085e" name="Default Changelist" comment="update gitignore">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/Deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Deploy.yml" afterDir="false" />
+    <list default="true" id="56b42be1-5d81-4643-8a9d-6b1e2366085e" name="Default Changelist" comment="fix blade">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reserve/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reserve/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -90,6 +92,7 @@
       <path value="$PROJECT_DIR$/php-vlazaay" />
     </ignored-roots>
     <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="fix blade" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix blade" />
   </component>
 </project>
